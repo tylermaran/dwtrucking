@@ -1,33 +1,206 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>D.W. Trucking</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js"></script>
-</head>
-<body>
-    
-<div class="row">
-    <div class="col-xs-7" id="truckingDiv">
-        Trucking Info
-    </div>
-    <div class="col-xs-5" id="truckPicture">
-        Trucking Picture
-    </div>
-</div>
 
-<div class="row">
-    <div class="col-xs-5" id="dumpsterPicture">
-        Dumpster Info
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <div class="col-sm-5" id="nameCol">
+                <div id="name">Dwayne Wilson Trucking</div>
+            </div>
+            <div class="col-sm-7">
+                <div class="row" id="email-Call">
+                    <!-- <div class="col-sm-6">
+                        Email: <a href="mailto:webmaster@example.com">dwayne.wilson@gmail.com</a>
+                    </div> -->
+                    <div class="col-sm-12" id="phone">
+                        Call: <a href="tel:6782319992">678-231-9992</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-link active" id="navText"><a href="#" class="navLink">Home</a></li>
+                        <li class="nav-link" id="navText"><a href="trucking.html" class="navLink">Trucking & Concrete Removal</a></li>
+                        <li class="nav-link" id="navText"><a href="dumpster.html" class="navLink">Dumpster & Demolition</a></li>
+                        <li class="nav-link" id="navText"><a href="#" class="navLink">Contact</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Trucking Row -->
+        <div class="row" id="truckRow">
+            <!-- psudo div for the background -->
+            <div class="col-sm-6" id="truckingPsudo"></div>
+            <!-- Main info for Trucking -->
+            <div class="col-sm-6" id="truckingDiv">
+                <h2>Trucking Services</h2>
+                <ul>
+                    <li>Concrete cutting and removal</li>
+                    <li>Waste removal - landfill</li>
+                    <li>Fill dirt</li>
+                    <li>Gravel</li>
+                    <li>Other truck stuff</li>
+                    <li>More other truck stuff</li>
+                </ul>
+
+                <button class="btn btn-primary" id="learnMore">Learn More</button>
+
+            </div>
+        </div>
+
+
+        <!-- break row -->
+        <div class="row" id="whitespace">
+            <div id="line"></div>
+        </div>
+
+
+        <!-- Dumpster Rental Row -->
+        <div class="row" id="dumpsterRow">
+            <div class="col-sm-6" id="dumpsterDiv">
+                <h2>Dumpster Rental</h2>
+                <ul>
+                    <li>Delivery and pick up of the bin</li>
+                    <li>Disposal Weight</li>
+                    <li>Driveway Protection System</li>
+                    <li>Sweeping up your property after the bin is picked up</li>
+                </ul>
+
+                <button class="btn btn-primary" id="learnMore">Learn More</button>
+            </div>
+            <div class="col-sm-6" id="dumpsterPsudo">
+            </div>
+        </div>
+
+        <!-- Map Row -->
+        <div class="row" id="map"></div>
+
+        <!-- break row -->
+        <div class="row" id="whitespace">
+            <div id="line"></div>
+        </div>
+
+        <!-- Contact Row -->
+        <div class="row" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <table class="table-condensed table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th colspan="7">
+                                        <span class="btn-group">
+                                            <a class="btn"><i class="icon-chevron-left"></i></a>
+                                            <a class="btn active">February 2012</a>
+                                            <a class="btn"><i class="icon-chevron-right"></i></a>
+                                        </span>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Su</th>
+                                    <th>Mo</th>
+                                    <th>Tu</th>
+                                    <th>We</th>
+                                    <th>Th</th>
+                                    <th>Fr</th>
+                                    <th>Sa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="muted">29</td>
+                                    <td class="muted">30</td>
+                                    <td class="muted">31</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td class="btn-primary"><strong>20</strong></td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td class="muted">1</td>
+                                    <td class="muted">2</td>
+                                    <td class="muted">3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="footer">
+            <p>Dwayne Wilson Trucking, LLC</p>
+
+            123 Somewhere,
+            Lexington KY 123456
+
+        </div>
     </div>
-    <div class="col-xs-7" id="dumpsterDiv">
-        Dumpster Picture
-    </div>
-</div>
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKAcx1c1B2bTd6OpFzYKIB3o45sue1788&callback=initMap">
+    </script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
