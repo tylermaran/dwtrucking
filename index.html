@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>D.W. Trucking</title>
 
     <link rel="icon" type="image/png" href="./images/favicon.ico">
@@ -23,6 +24,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Google Cursive font -->
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
@@ -30,24 +36,24 @@
 <body>
     <div class="container-fluid">
         <div class="row" id="header">
-            <div class="col-sm-5" id="nameCol">
+            <div class="col-sm-4" id="nameCol">
                 <div id="name">Dwayne Wilson Trucking</div>
             </div>
-            <div class="col-sm-7">
-                <div class="row" id="email-Call">
-                    <!-- <div class="col-sm-6">
-                        Email: <a href="mailto:webmaster@example.com">dwayne.wilson@gmail.com</a>
-                    </div> -->
-                    <div class="col-sm-12" id="phone">
+            <div class="col-sm-8">
+                <div class="row" id="area">
+                    <div class="col-sm-8">
+                        Covering Lexington, Louisville, and Cincinnati
+                    </div>
+                    <div class="col-sm-4" id="phone">
                         Call: <a href="tel:6782319992">678-231-9992</a>
                     </div>
                 </div>
                 <div class="row">
                     <ul class="nav nav-tabs">
-                        <li class="nav-link active" id="navText"><a href="#" class="navLink">Home</a></li>
-                        <li class="nav-link" id="navText"><a href="trucking.html" class="navLink">Trucking & Concrete Removal</a></li>
-                        <li class="nav-link" id="navText"><a href="dumpster.html" class="navLink">Dumpster & Demolition</a></li>
-                        <li class="nav-link" id="navText"><a href="#" class="navLink">Contact</a></li>
+                        <li class="nav-link active" id="navText"><a href="index.html" class="navLink">Home</a></li>
+                        <li class="nav-link" id="navText"><a href="trucking.html" class="navLink">Concrete Removal</a></li>
+                        <li class="nav-link" id="navText"><a href="dumpster.html" class="navLink">Dumpster</a></li>
+                        <li class="nav-link" id="navText"><a href="contact.html" class="navLink">Contact</a></li>
                     </ul>
 
                 </div>
@@ -71,7 +77,9 @@
                     <li>More other truck stuff</li>
                 </ul>
 
-                <button class="btn btn-primary" id="learnMore">Learn More</button>
+                <button class="btn btn-primary" id="learnMore" onclick="window.location.href = 'trucking.html';">
+                    Learn More
+                </button>
 
             </div>
         </div>
@@ -85,6 +93,7 @@
 
         <!-- Dumpster Rental Row -->
         <div class="row" id="dumpsterRow">
+            <div class="col-sm-6" id="dumpsterPsudoTop"></div>
             <div class="col-sm-6" id="dumpsterDiv">
                 <h2>Dumpster Rental</h2>
                 <ul>
@@ -94,10 +103,10 @@
                     <li>Sweeping up your property after the bin is picked up</li>
                 </ul>
 
-                <button class="btn btn-primary" id="learnMore">Learn More</button>
+                <button class="btn btn-primary" id="learnMore" onclick="window.location.href = 'dumpster.html';">Learn
+                    More</button>
             </div>
-            <div class="col-sm-6" id="dumpsterPsudo">
-            </div>
+            <div class="col-sm-6" id="dumpsterPsudo"></div>
         </div>
 
         <!-- Map Row -->
@@ -110,89 +119,47 @@
 
         <!-- Contact Row -->
         <div class="row" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="span12">
-                        <table class="table-condensed table-bordered table-striped">
-                            <thead>
-                                <tr>
-                                    <th colspan="7">
-                                        <span class="btn-group">
-                                            <a class="btn"><i class="icon-chevron-left"></i></a>
-                                            <a class="btn active">February 2012</a>
-                                            <a class="btn"><i class="icon-chevron-right"></i></a>
-                                        </span>
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th>Su</th>
-                                    <th>Mo</th>
-                                    <th>Tu</th>
-                                    <th>We</th>
-                                    <th>Th</th>
-                                    <th>Fr</th>
-                                    <th>Sa</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="muted">29</td>
-                                    <td class="muted">30</td>
-                                    <td class="muted">31</td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3</td>
-                                    <td>4</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>6</td>
-                                    <td>7</td>
-                                    <td>8</td>
-                                    <td>9</td>
-                                    <td>10</td>
-                                    <td>11</td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>13</td>
-                                    <td>14</td>
-                                    <td>15</td>
-                                    <td>16</td>
-                                    <td>17</td>
-                                    <td>18</td>
-                                </tr>
-                                <tr>
-                                    <td>19</td>
-                                    <td class="btn-primary"><strong>20</strong></td>
-                                    <td>21</td>
-                                    <td>22</td>
-                                    <td>23</td>
-                                    <td>24</td>
-                                    <td>25</td>
-                                </tr>
-                                <tr>
-                                    <td>26</td>
-                                    <td>27</td>
-                                    <td>28</td>
-                                    <td>29</td>
-                                    <td class="muted">1</td>
-                                    <td class="muted">2</td>
-                                    <td class="muted">3</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div class="col-sm-8" id="contactForm">
+                <form>
+                    <h2>Get a Quote:</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae cum expedita quis! Doloremque,
+                        sed quos sunt illum exercitationem fugit! Ipsa distinctio impedit dicta ut velit vel at
+                        necessitatibus nulla perspiciatis!Fugiat quaerat et error iure id deserunt numquam assumenda
+                        rem vel odit ex dolores officia magni</p>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name:</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Phone Number:</label>
+                        <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Describe the request:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </form>
             </div>
         </div>
 
         <div class="row" id="footer">
-            <p>Dwayne Wilson Trucking, LLC</p>
-
-            123 Somewhere,
-            Lexington KY 123456
-
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div id="footerName">Dwayne Wilson Trucking</div>
+                <div>
+                    Dwayne Wilson Trucking, LLC ||
+                    123 Somewhere,
+                    Lexington KY 123456
+                </div>
+            </div>
+            <div class="col-sm-3" id="footerCall">
+                Call: <a href="tel:6782319992">678-231-9992</a>
+            </div>
         </div>
     </div>
 

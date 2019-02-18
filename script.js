@@ -1,19 +1,37 @@
 // Initialize and add the map
 function initMap() {
-    // The location of Uluru
-    var lexington = {
-        lat: 38.040098,
-        lng: -84.504511
-    };
-    // The map, centered at Uluru
-    var map = new google.maps.Map(
+
+    const center = {
+        lat: 38.570790, 
+        lng: -84.754112
+    }
+
+    const location = {
+        lexington: {
+            lat: 38.040098,
+            lng: -84.504511
+        },
+        louisville: {
+            lat: 38.237248,
+            lng: -85.733573
+        },
+        cincinnati: {
+            lat: 39.103412, 
+            lng: -84.517511
+        }
+    }
+    
+    // The map, centered between 
+    const map = new google.maps.Map(
         document.getElementById('map'), {
-            zoom: 9,
-            center: lexington
+            zoom: 8,
+            center: center
         });
-    // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({
-        position: lexington,
-        map: map
-    });
+
+    for(key in location){
+        new google.maps.Marker({
+            position: location[key],
+            map: map
+        })
+    }    
 }
