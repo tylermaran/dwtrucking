@@ -27,7 +27,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Google Cursive font -->
-    <link href='//fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <!-- Production mode - drops the http so it works on secure hosting -->
+    <!-- <link href='//fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'> -->
 
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
@@ -67,14 +69,18 @@
             <div class="col-sm-6" id="truckingPsudo"></div>
             <!-- Main info for Trucking -->
             <div class="col-sm-6" id="truckingDiv">
-                <h2>Trucking Services</h2>
+                <div class="textBackground">
+                    <div class="headerText">Trucking and Concrete Removal</div>
+                </div>
+                <div class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minima doloribus a magni officia
+                    expedita sed inventore quod.
+                </div>
                 <ul>
                     <li>Concrete cutting and removal</li>
                     <li>Waste removal - landfill</li>
                     <li>Fill dirt</li>
                     <li>Gravel</li>
-                    <li>Other truck stuff</li>
-                    <li>More other truck stuff</li>
                 </ul>
 
                 <button class="btn btn-primary" id="learnMore" onclick="window.location.href = 'trucking.html';">
@@ -95,7 +101,14 @@
         <div class="row" id="dumpsterRow">
             <div class="col-sm-6" id="dumpsterPsudoTop"></div>
             <div class="col-sm-6" id="dumpsterDiv">
-                <h2>Dumpster Rental</h2>
+                <div class="textBackground">
+                    <div class="headerText">Dumpster Rental & Demolition</div>
+                    </h3>
+                </div>
+                <div class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minima doloribus a magni officia
+                    expedita sed inventore quod.
+                </div>
                 <ul>
                     <li>Delivery and pick up of the bin</li>
                     <li>Disposal Weight</li>
@@ -124,8 +137,7 @@
                     <h2>Get a Quote:</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae cum expedita quis! Doloremque,
                         sed quos sunt illum exercitationem fugit! Ipsa distinctio impedit dicta ut velit vel at
-                        necessitatibus nulla perspiciatis!Fugiat quaerat et error iure id deserunt numquam assumenda
-                        rem vel odit ex dolores officia magni</p>
+                        necessitatibus nulla perspiciatis!</p>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Name:</label>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
@@ -166,7 +178,7 @@
     <script src="script.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKAcx1c1B2bTd6OpFzYKIB3o45sue1788&callback=initMap">
     </script>
-    
+
 
 </body>
 
