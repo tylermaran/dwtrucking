@@ -24,7 +24,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js"></script>
 
     <!-- Google Cursive font -->
-    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'> -->
+    <!-- Production mode - drops the http so it works on secure hosting -->
+    <link href='//fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
@@ -79,9 +81,32 @@
                     <li>Gravel</li>
                 </ul>
 
-                <button class="btn btn-primary" id="learnMore" onclick="window.location.href = 'trucking.html';">
-                    Learn More
-                </button>
+                <div class="imageDiv">
+                    <img src="./images/bridge.JPG" alt="bridge" class="images">
+                </div>
+                <div class="imageBack">
+                    Description of job.
+                </div>
+
+                <div class="description">
+                    More information.
+                </div>
+                <ul>
+                    <li>Detail on some jobs</li>
+                    <li>Waste removal - landfill</li>
+                    <li>Fill dirt</li>
+                    <li>Gravel</li>
+                </ul>
+
+                <div class="imageDiv">
+                    <img src="./images/backhoe.jpg" alt="backhoe" class="images">
+                </div>
+                <div class="imageBack">
+                    Description of equipment.
+                </div>
+                <div class="description">
+                    More information.
+                </div>
 
             </div>
         </div>
@@ -103,22 +128,22 @@
                         sed quos sunt illum exercitationem fugit! Ipsa distinctio impedit dicta ut velit vel at
                         necessitatibus nulla perspiciatis!</p>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Name:</label>
+                        <label for="exampleFormControlInput1">Name:<span style="color:red">*</span></label>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Phone Number:</label>
+                        <label for="exampleFormControlInput1">Phone Number:<span style="color:red">*</span></label>
                         <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Number">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address:</label>
+                        <label for="exampleFormControlInput1">Email address:<span style="color:red">*</span></label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Describe the request:</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    <button type="submit" class="btn btn-primary mb-2">Send</button>
                 </form>
             </div>
         </div>

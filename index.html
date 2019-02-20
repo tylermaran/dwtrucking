@@ -27,7 +27,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Google Cursive font -->
-    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'> -->
     <!-- Production mode - drops the http so it works on secure hosting -->
     <link href='//fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 
@@ -35,8 +35,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 
+<!-- Begin Body -->
 <body>
     <div class="container-fluid">
+
+        <!-- Header -->
         <div class="row" id="header">
             <div class="col-sm-4" id="nameCol">
                 <div id="name">Dwayne Wilson Trucking</div>
@@ -61,8 +64,9 @@
                 </div>
 
             </div>
-
         </div>
+
+
         <!-- Trucking Row -->
         <div class="row" id="truckRow">
             <!-- psudo div for the background -->
@@ -115,20 +119,23 @@
                     <li>Driveway Protection System</li>
                     <li>Sweeping up your property after the bin is picked up</li>
                 </ul>
-
                 <button class="btn btn-primary" id="learnMore" onclick="window.location.href = 'dumpster.html';">Learn
-                    More</button>
+                    More
+                </button>
             </div>
             <div class="col-sm-6" id="dumpsterPsudo"></div>
         </div>
 
+
         <!-- Map Row -->
         <div class="row" id="map"></div>
+
 
         <!-- break row -->
         <div class="row" id="whitespace">
             <div id="line"></div>
         </div>
+
 
         <!-- Contact Row -->
         <div class="row" id="contact">
@@ -139,26 +146,28 @@
                         sed quos sunt illum exercitationem fugit! Ipsa distinctio impedit dicta ut velit vel at
                         necessitatibus nulla perspiciatis!</p>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Name:</label>
+                        <label for="exampleFormControlInput1">Name:<span style="color:red">*</span></label>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Phone Number:</label>
+                        <label for="exampleFormControlInput1">Phone Number:<span style="color:red">*</span></label>
                         <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Number">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address:</label>
+                        <label for="exampleFormControlInput1">Email address:<span style="color:red">*</span></label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Describe the request:</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    <button type="submit" class="btn btn-primary mb-2">Send</button>
                 </form>
             </div>
         </div>
 
+
+        <!-- Footer Row -->
         <div class="row" id="footer">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
@@ -175,6 +184,7 @@
         </div>
     </div>
 
+    <!-- Request script prior to Google Maps load -->
     <script src="script.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKAcx1c1B2bTd6OpFzYKIB3o45sue1788&callback=initMap">
     </script>

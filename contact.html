@@ -24,7 +24,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js"></script>
 
     <!-- Google Cursive font -->
-    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'> -->
+    <!-- Production mode - drops the http so it works on secure hosting -->
+    <link href='//fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
@@ -59,52 +61,52 @@
 
         </div>
 
-                <!-- Contact Row -->
-                <div class="row" id="contact">
-                        <div class="col-sm-8" id="contactForm">
-                            <form>
-                                <h2>Get a Quote:</h2>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae cum expedita quis! Doloremque,
-                                    sed quos sunt illum exercitationem fugit! Ipsa distinctio impedit dicta ut velit vel at
-                                    necessitatibus nulla perspiciatis!</p>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Name:</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Phone Number:</label>
-                                    <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Number">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Email address:</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Describe the request:</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary mb-2">Submit</button>
-                            </form>
-                        </div>
+        <!-- Contact Row -->
+        <div class="row" id="contact">
+            <div class="col-sm-8" id="contactForm">
+                <form>
+                    <h2>Get a Quote:</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae cum expedita quis! Doloremque,
+                        sed quos sunt illum exercitationem fugit! Ipsa distinctio impedit dicta ut velit vel at
+                        necessitatibus nulla perspiciatis!</p>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name:<span style="color:red">*</span></label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                     </div>
-            
-                    <div class="row" id="footer">
-                        <div class="col-sm-3"></div>
-                        <div class="col-sm-6">
-                            <div id="footerName">Dwayne Wilson Trucking</div>
-                            <div>
-                                Dwayne Wilson Trucking, LLC ||
-                                123 Somewhere,
-                                Lexington KY 123456
-                            </div>
-                        </div>
-                        <div class="col-sm-3" id="footerCall">
-                            Call: <a href="tel:6782319992">678-231-9992</a>
-                        </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Phone Number:<span style="color:red">*</span></label>
+                        <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Number">
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address:<span style="color:red">*</span></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Describe the request:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">Send</button>
+                </form>
+            </div>
+        </div>
 
-        <script src="script.js"></script>
+        <div class="row" id="footer">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div id="footerName">Dwayne Wilson Trucking</div>
+                <div>
+                    Dwayne Wilson Trucking, LLC ||
+                    123 Somewhere,
+                    Lexington KY 123456
+                </div>
+            </div>
+            <div class="col-sm-3" id="footerCall">
+                Call: <a href="tel:6782319992">678-231-9992</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 
