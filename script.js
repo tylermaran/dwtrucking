@@ -35,3 +35,8 @@ function initMap() {
         })
     }    
 }
+
+
+
+// Saying 'Message Sent' when submit is clicked
+// setTimeout(function() { alert("my message"); }, time);

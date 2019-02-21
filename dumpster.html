@@ -21,8 +21,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js"></script>
-
     <!-- Google Cursive font -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'> -->
     <!-- Production mode - drops the http so it works on secure hosting -->
@@ -34,40 +32,50 @@
 
 <body>
     <div class="container-fluid">
+        <!-- Header -->
         <div class="row" id="header">
-            <div class="col-sm-4" id="nameCol">
+            <div class="col-sm-4" id="nameColSm">
                 <div id="name">Dwayne Wilson Trucking</div>
             </div>
-            <div class="col-sm-8">
-                <div class="row" id="area">
-                    <div class="col-sm-8">
-                        Covering Lexington, Louisville, and Cincinnati
-                    </div>
-                    <div class="col-sm-4" id="phone">
-                        Call: <a href="tel:6782319992">678-231-9992</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-link" id="navText"><a href="index.html" class="navLink">Home</a></li>
-                        <li class="nav-link" id="navText"><a href="trucking.html" class="navLink">Concrete Removal</a></li>
-                        <li class="nav-link active" id="navText"><a href="dumpster.html" class="navLink">Dumpster</a></li>
-                        <li class="nav-link" id="navText"><a href="contact.html" class="navLink">Contact</a></li>
-                    </ul>
-                </div>
+
+            <div class="col-md-4" id="nameColMd">
+                <div id="name">Dwayne Wilson Trucking</div>
             </div>
 
+            <div class="col-md-8">
+                <div class="row" id="area">
+                    <div class="col-md-8" id="cities">
+                        Covering Lexington, Louisville, and Cincinnati
+                    </div>
+                    <div class="col-md-8" id="phone">
+                        <a href="tel:6782319992"><span class="glyphicon glyphicon-earphone"></span> 678-231-9992</a>
+                    </div>
+
+                    <div class="col-md-8" id="navCol">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-link" id="navText"><a href="index.html" class="navLink">Home</a></li>
+                            <li class="nav-link" id="navText"><a href="trucking.html" class="navLink">Concrete Removal</a></li>
+                            <li class="nav-link active" id="navText"><a href="dumpster.html" class="navLink">Dumpster</a></li>
+                            <li class="nav-link" id="navText"><a href="contact.html" class="navLink">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
         <!-- Dumpster Rental Row -->
         <div class="row" id="dumpsterRow">
+            <!-- psudo div for background -->
             <div class="col-sm-6" id="dumpsterPsudoTop"></div>
+
             <div class="col-sm-6" id="dumpsterDiv">
                 <div class="textBackground">
                     <div class="headerText">Dumpster Rental & Demolition</div>
-                    </h3>
                 </div>
                 <div class="description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minima doloribus a magni officia
+                    <strong>TEXT 9: </strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minima
+                    doloribus a magni officia
                     expedita sed inventore quod.
                 </div>
                 <ul>
@@ -76,34 +84,71 @@
                     <li>Driveway Protection System</li>
                     <li>Sweeping up your property after the bin is picked up</li>
                 </ul>
+                <div class="imageSm">
+                    <div class="imageDiv">
+                        <img src="./images/dumpsterTruck.jpg" alt="backhoe" class="images">
+                    </div>
 
-                <div class="imageDiv">
-                    <img src="./images/dumpsterTruck.jpg" alt="backhoe" class="images">
-                </div>
-                <div class="imageBack">
-                    Description of equipment.
-                </div>
-                <div class="description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minima doloribus a magni officia
-                    expedita sed inventore quod.
-                </div>
+                    <div class="imageBack">
+                        <strong>TEXT 10: </strong>Description of equipment.
+                    </div>
+                    <div class="description">
+                        <strong>TEXT 11: </strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                        minima doloribus a magni
+                        officia
+                        expedita sed inventore quod.
+                    </div>
 
-                <div class="imageDiv">
-                    <img src="./images/demolition.jpg" alt="backhoe" class="images">
+                    <div class="imageDiv">
+                        <img src="./images/demolition.jpg" alt="backhoe" class="images">
+                    </div>
+                    <div class="imageBack">
+                        <strong>TEXT 12: </strong>Description of job.
+                    </div>
+                    <div class="description">
+                        <strong>TEXT 13: </strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                        minima doloribus a magni
+                        officia
+                        expedita sed inventore quod.
+                    </div>
                 </div>
-                <div class="imageBack">
-                    Description of job.
-                </div>
-                <div class="description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minima doloribus a magni officia
-                    expedita sed inventore quod.
-                </div>
-
             </div>
             <div class="col-sm-6" id="dumpsterPsudo"></div>
 
-
         </div>
+
+        <!-- Row for images on full screen mode -->
+        <div class="row" id="imageRow">
+            <div class="imageDiv">
+                <img src="./images/brickhouse.JPG" alt="bridge" class="images">
+
+                <div class="imageDescription">
+                    <h4><em><strong>TEXT 10: </strong>More information.<em></h4>
+                    <ul>
+                        <li><strong>TEXT 11: </strong>Detail on some jobs</li>
+                        <li>Waste removal - landfill</li>
+                        <li>Fill dirt</li>
+                        <li>Gravel</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="imageDiv">
+                <img src="./images/demolition.jpg" alt="bridge" class="images">
+                <div class="imageDescription">
+                    <h4><em><strong>TEXT 12: </strong>More information.<em></h4>
+                    <ul>
+                        <li><strong>TEXT 13: </strong>Detail on some jobs</li>
+                        <li>Waste removal - landfill</li>
+                        <li>Fill dirt</li>
+                        <li>Gravel</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- End Image Row -->
+
 
         <!-- Map Row -->
         <div class="row" id="map"></div>
@@ -115,10 +160,11 @@
 
         <!-- Contact Row -->
         <div class="row" id="contact">
-            <div class="col-sm-8" id="contactForm">
+            <div class="col-md-8" id="contactForm">
                 <form>
                     <h2>Get a Quote:</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae cum expedita quis! Doloremque,
+                    <p><strong>TEXT 3: </strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae cum
+                        expedita quis! Doloremque,
                         sed quos sunt illum exercitationem fugit! Ipsa distinctio impedit dicta ut velit vel at
                         necessitatibus nulla perspiciatis!</p>
                     <div class="form-group">
@@ -143,8 +189,8 @@
         </div>
 
         <div class="row" id="footer">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
                 <div id="footerName">Dwayne Wilson Trucking</div>
                 <div>
                     Dwayne Wilson Trucking, LLC ||
@@ -152,7 +198,7 @@
                     Lexington KY 123456
                 </div>
             </div>
-            <div class="col-sm-3" id="footerCall">
+            <div class="col-md-3" id="footerCall">
                 Call: <a href="tel:6782319992">678-231-9992</a>
             </div>
         </div>

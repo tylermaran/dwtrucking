@@ -22,8 +22,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Google Cursive font -->
@@ -36,33 +34,37 @@
 </head>
 
 <!-- Begin Body -->
+
 <body>
     <div class="container-fluid">
-
         <!-- Header -->
         <div class="row" id="header">
-            <div class="col-sm-4" id="nameCol">
+            <div class="col-sm-4" id="nameColSm">
                 <div id="name">Dwayne Wilson Trucking</div>
             </div>
-            <div class="col-sm-8">
+
+            <div class="col-md-4" id="nameColMd">
+                <div id="name">Dwayne Wilson Trucking</div>
+            </div>
+
+            <div class="col-md-8">
                 <div class="row" id="area">
-                    <div class="col-sm-8">
+                    <div class="col-md-8" id="cities">
                         Covering Lexington, Louisville, and Cincinnati
                     </div>
-                    <div class="col-sm-4" id="phone">
-                        Call: <a href="tel:6782319992">678-231-9992</a>
+                    <div class="col-md-8" id="phone">
+                        <a href="tel:6782319992"><span class="glyphicon glyphicon-earphone"></span> 678-231-9992</a>
+                    </div>
+
+                    <div class="col-md-8" id="navCol">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-link active" id="navText"><a href="index.html" class="navLink">Home</a></li>
+                            <li class="nav-link" id="navText"><a href="trucking.html" class="navLink">Concrete Removal</a></li>
+                            <li class="nav-link" id="navText"><a href="dumpster.html" class="navLink">Dumpster</a></li>
+                            <li class="nav-link" id="navText"><a href="contact.html" class="navLink">Contact</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-link active" id="navText"><a href="index.html" class="navLink">Home</a></li>
-                        <li class="nav-link" id="navText"><a href="trucking.html" class="navLink">Concrete Removal</a></li>
-                        <li class="nav-link" id="navText"><a href="dumpster.html" class="navLink">Dumpster</a></li>
-                        <li class="nav-link" id="navText"><a href="contact.html" class="navLink">Contact</a></li>
-                    </ul>
-
-                </div>
-
             </div>
         </div>
 
@@ -74,10 +76,11 @@
             <!-- Main info for Trucking -->
             <div class="col-sm-6" id="truckingDiv">
                 <div class="textBackground">
-                    <div class="headerText">Trucking and Concrete Removal</div>
+                    <div class="headerText">Trucking & Concrete Removal</div>
                 </div>
                 <div class="description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minima doloribus a magni officia
+                    <strong>TEXT 1: </strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minima
+                    doloribus a magni officia
                     expedita sed inventore quod.
                 </div>
                 <ul>
@@ -110,7 +113,8 @@
                     </h3>
                 </div>
                 <div class="description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minima doloribus a magni officia
+                    <strong>TEXT 2: </strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minima
+                    doloribus a magni officia
                     expedita sed inventore quod.
                 </div>
                 <ul>
@@ -126,7 +130,6 @@
             <div class="col-sm-6" id="dumpsterPsudo"></div>
         </div>
 
-
         <!-- Map Row -->
         <div class="row" id="map"></div>
 
@@ -139,10 +142,10 @@
 
         <!-- Contact Row -->
         <div class="row" id="contact">
-            <div class="col-sm-8" id="contactForm">
+            <div class="col-md-8" id="contactForm">
                 <form>
                     <h2>Get a Quote:</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae cum expedita quis! Doloremque,
+                    <p><strong>TEXT 3: </strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae cum expedita quis! Doloremque,
                         sed quos sunt illum exercitationem fugit! Ipsa distinctio impedit dicta ut velit vel at
                         necessitatibus nulla perspiciatis!</p>
                     <div class="form-group">
@@ -169,8 +172,8 @@
 
         <!-- Footer Row -->
         <div class="row" id="footer">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
                 <div id="footerName">Dwayne Wilson Trucking</div>
                 <div>
                     Dwayne Wilson Trucking, LLC ||
@@ -178,8 +181,8 @@
                     Lexington KY 123456
                 </div>
             </div>
-            <div class="col-sm-3" id="footerCall">
-                Call: <a href="tel:6782319992">678-231-9992</a>
+            <div class="col-md-3" id="footerCall">
+                Call: <a href="tel:6782319992"><span class="glyphicon glyphicon-earphone"></span> 678-231-9992</a>
             </div>
         </div>
     </div>
