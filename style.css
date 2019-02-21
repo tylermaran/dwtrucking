@@ -1,6 +1,7 @@
+
 @media only screen and (max-width: 768px) {
     body {
-        min-width: 400px;
+        min-width: 375px;
     }
 
     #header {
@@ -37,6 +38,7 @@
     #navText {
         text-align: center;
         font-size: 13px;
+        letter-spacing: -1px;
     }
 
     #navCol {
