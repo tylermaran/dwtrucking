@@ -30,7 +30,7 @@ function initMap() {
 
     for(key in location){
         new google.maps.Marker({
-            position: location[key],
+            position: new google.maps.LatLng(location[key]),
             map: map
         })
     }    

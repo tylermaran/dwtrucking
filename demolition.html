@@ -30,8 +30,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 
-<!-- Begin Body -->
-
 <body>
     <div class="container-fluid">
         <!-- Header -->
@@ -50,13 +48,13 @@
                         Covering Lexington, Louisville, and Cincinnati
                     </div>
                     <div class="col-md-8" id="phone">
-                        <a href="tel:8592709454"><span class="glyphicon glyphicon-earphone"></span> 859-270-9454</a>
+                            <a href="tel:8592709454"><span class="glyphicon glyphicon-earphone"></span> 859-270-9454</a>
                     </div>
 
                     <div class="col-md-8" id="navCol">
                         <ul class="nav nav-tabs nav-fill">
-                            <li class="nav-link active" id="navText"><a href="index.html" class="navLink">Home</a></li>
-                            <li class="nav-link" id="navText"><a href="demolition.html" class="navLink">Demolition</a></li>
+                            <li class="nav-link" id="navText"><a href="index.html" class="navLink">Home</a></li>
+                            <li class="nav-link active" id="navText"><a href="demolition.html" class="navLink">Demolition</a></li>
                             <li class="nav-link" id="navText"><a href="dumpster.html" class="navLink">Dumpster</a></li>
                             <li class="nav-link" id="navText"><a href="concrete.html" class="navLink">Concrete Removal</a></li>
                             <!-- <li class="nav-link hideContact" id="navText"><a href="contact.html" class="navLink hideContact">Contact</a></li> -->
@@ -66,8 +64,7 @@
             </div>
         </div>
 
-
-        <!-- Demolition Row - Ignore the truckRow id, I'm just changing the text not the names -->
+        <!-- Demolition Row -->
         <div class="row" id="demoRow">
             <!-- psudo div for the background -->
             <div class="col-sm-6" id="truckingPsudo"></div>
@@ -86,87 +83,146 @@
                     <li>Experience in large structure demolition & commercial property</li>
                 </ul>
 
-                <button class="btn btn-primary" id="learnMore" onclick="window.location.href = 'demolition.html';">
-                    Learn More
-                </button>
+                <div class="imageSm">
+                    <!-- Image 1 -->
+                    <div class="imageDiv">
+                        <img src="./images/demo_tmobile.JPG" alt="backhoe" class="images">
+                    </div>
 
+                    <div class="imageBack">
+                        <strong>Experience in Commercial property:</strong>
+                    </div>
+                    <div class="description">
+                        <ul>
+                            <li>Precision Demolition</li>
+                            <li>Maintaining proper clearance in high traffic areas</li>
+                            <li>Surface leveling and grating</li>
+                        </ul>
+                    </div>
+
+                    <!-- Image 2 -->
+                    <div class="imageDiv">
+                        <img src="./images/demo_brickhouse.JPG" alt="backhoe" class="images">
+                    </div>
+                    <div class="imageBack">
+                        <strong>Full Home Demolition:</strong>
+                    </div>
+                    <div class="description">
+                        <ul class="descriptionList">
+                            <li>Residential demolition & haul-away</li>
+                            <li>Removal of single, or multi-family properties</li>
+                            <li>Surface leveling / preparation</li>
+                        </ul>
+                    </div>
+
+                    <!-- Image 3 -->
+                    <div class="imageDiv">
+                        <img src="./images/demo_pool.JPG" alt="backhoe" class="images">
+                    </div>
+                    <div class="imageBack">
+                        <strong>Small Scale Demolition:</strong>
+                    </div>
+                    <div class="description">
+                        <ul class="descriptionList">
+                            <li>Attached Structures / Garage / Shed</li>
+                            <li>Hard to access areas</li>
+                        </ul>
+                    </div>
+
+                    <!-- Image 4 -->
+                    <div class="imageDiv">
+                        <img src="./images/demo_pillars.jpeg" alt="backhoe" class="images">
+                    </div>
+                    <div class="imageBack">
+                        <strong>Large Structure Removal:</strong>
+                    </div>
+                    <div class="description">
+                        <ul class="descriptionList">
+                            <li>Bulk material and oversized loads</li>
+                            <li>Experience in reinforced structures</li>
+                            <li>Multi-story demolition</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <!-- <div class="col-sm-6" id="dumpsterPsudo"></div> -->
+
         </div>
 
 
-        <!-- break row -->
-        <div class="row" id="whitespace">
-            <div id="line"></div>
-        </div>
 
-        <!-- Dumpster Rental Row -->
-        <div class="row" id="dumpsterRowFront">
-            <div class="col-sm-6" id="dumpsterPsudoTop"></div>
-            <div class="col-sm-6" id="dumpsterDiv">
-                <div class="textBackground">
-                    <div class="headerText">Dumpster Rental</div>
-                    </h3>
+        <!-- Row for images on full screen mode -->
+        <div class="row" id="imageRow">
+            <!-- Image #2 -->
+            <div class="imageDiv">
+                <img src="./images/demo_tmobile.JPG" alt="bridge" class="images">
+                <div class="imageDescription">
+                    <!-- T-Mobile Picture -->
+                    <h4><strong>Experience in Commercial property </strong></h4>
+                    <ul class="descriptionList">
+                        <li>Precision Demolition</li>
+                        <li>Maintaining proper clearance in high traffic areas</li>
+                        <li>Surface leveling and grating</li>
+                    </ul>
                 </div>
-                <div class="description">
-                    Daily, weekly and monthly rentals of <strong>20</strong> and <strong>30</strong> yard dumpsters.
-                </div>
-                <ul>
-                    <li>Delivery and pick up of the bin</li>
-                    <li>Concrete and Block</li>
-                    <li>Debris and Trash</li>
-                    <li>Scrap Metal</li>
-                    <li>No Biohazardous Materials</li>
-                </ul>
-                <button class="btn btn-primary" id="learnMore" onclick="window.location.href = 'dumpster.html';">Learn
-                    More
-                </button>
             </div>
-            <div class="col-sm-6" id="dumpsterPsudo"></div>
-        </div>
-
-        <!-- break row -->
-        <div class="row" id="whitespace">
-            <div id="line"></div>
-        </div>
-        
-        <!-- Concrete Removal Row -->
-        <div class="row concreteRow" id="concreteRow">
-            <!-- psudo div for the background -->
-            <div class="col-sm-6" id="truckingPsudoFront"></div>
-            <!-- Main info for Trucking -->
-            <div class="col-sm-6" id="truckingDiv">
-                <div class="textBackground">
-                    <div class="headerText">Concrete Removal & Services</div>
+            <!-- Image #1 -->
+            <div class="imageDiv">
+                <img src="./images/demo_brickhouse.JPG" alt="bridge" class="images">
+                <div class="imageDescription">
+                    <!-- Brick House demo -->
+                    <h4><strong>Full Home Demolition</strong></h4>
+                    <ul class="descriptionList">
+                        <li>Residential demolition & haul-away</li>
+                        <li>Removal of single, or multi-family properties</li>
+                        <li>Surface leveling / preparation</li>
+                    </ul>
                 </div>
-                <div class="description">
-                    Commercial and residential concrete and asphalt removal. Concrete installs available.
-                </div>
-                <ul>
-                    <li>All types of saw cutting and removal</li>
-                    <li>Haul off</li>
-                    <li>Inside industrial work</li>
-                    <li>Grading and site prep available</li>
-                </ul>
-
-                <button class="btn btn-primary" id="learnMore" onclick="window.location.href = 'concrete.html';">
-                    Learn More
-                </button>
-
             </div>
+
+            <!-- Image #3 -->
+            <div class="imageDiv">
+                <img src="./images/demo_pool.JPG" alt="pool" class="images">
+                <div class="imageDescription">
+                    <h4><strong>Small Scale Demolition</strong></h4>
+                    <ul class="descriptionList">
+                        <li>Attached Structures / Garage / Shed</li>
+                        <li>Hard to access areas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Image #4 -->
+            <div class="imageDiv">
+                <img src="./images/demo_pillars.jpeg" alt="bridge" class="images">
+                <div class="imageDescription">
+                    <h4><strong>Large Structure Removal</strong></h4>
+                    <ul class="descriptionList">
+                        <li>Bulk material and oversized loads</li>
+                        <li>Experience in reinforced structures</li>
+                        <li>Multi-story demolition</li>
+                    </ul>
+                </div>
+            </div>
+
+
         </div>
 
-        <!-- Map Row -->
-        <div class="row" id="map"></div>
+
+    </div>
+    <!-- End Image Row -->
 
 
-        <!-- break row -->
-        <div class="row" id="whitespace">
-            <div id="line"></div>
-        </div>
+    <!-- Map Row -->
+    <div class="row" id="map"></div>
 
+    <!-- break row -->
+    <div class="row" id="whitespace">
+        <div id="line"></div>
+    </div>
 
-        <!-- Contact Row -->
-        <div class="row" id="contact">
+    <!-- Contact Row -->
+    <div class="row" id="contact">
             <div class="col col-md-2"></div>
             <div class="col-md-8" id="contactForm">
                 <form>
@@ -220,6 +276,7 @@
     <script src="script.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKAcx1c1B2bTd6OpFzYKIB3o45sue1788&callback=initMap">
     </script>
+
 
 
 </body>

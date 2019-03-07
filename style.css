@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 768px) {
     body {
         min-width: 375px;
@@ -39,9 +38,15 @@
         text-align: center;
         font-size: 13px;
         letter-spacing: -1px;
+        padding: 0 0 0 0;
     }
 
     #navCol {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    #navLink {
         margin: 0 0 0 0;
         padding: 0 0 0 0;
     }
@@ -89,6 +94,14 @@
         background-position: right 25%;
     }
 
+    #truckingPsudoFront {
+        height: 150px;
+        background-image: url('./images/backhoe.jpg');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: right 25%;
+    }
+
     #whitespace {
         visibility: hidden;
     }
@@ -111,7 +124,7 @@
 
     #dumpsterPsudoTop {
         height: 150px;
-        background-image: url('./images/brickhouse.JPG');
+        background-image: url('./images/dump_bighouse.JPG');
         background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: left 25%;
@@ -167,14 +180,16 @@
     .images {
         width: 100%;
         height: auto;
-        margin: 20px 0 0 0;
-        border: solid 1px green;
+        margin: 5px 0 0 0;
+        border: solid 1px rgb(73, 73, 73);
+        ;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
 
     .imageBack {
-        background-color: green;
+        background-color: rgb(73, 73, 73);
+        ;
         margin: 0 0 10px 0;
         padding: 2px 10px 10px 10px;
         color: white;
@@ -308,6 +323,18 @@
         clip-path: polygon(0 0, 100% 0, 98% 100%, 0% 100%);
     }
 
+    .description {
+        font-size: 18px;
+    }
+
+    .descriptionList {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
     .headerText {
         width: auto;
         color: white;
@@ -321,7 +348,7 @@
         height: auto;
         padding: 10px 10px 10px 10px;
         font-size: 25px;
-        margin: 30px 0 0 0;
+        margin: 30px 0 0 30px;
     }
 
 
@@ -342,8 +369,17 @@
         clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
     }
 
-    #truckRow {
+    #demoRow {
+        /* Loading truck full of rebar */
         background-image: url('./images/loadingtruck.JPG');
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    #concreteRow {
+
+        background-image: url('./images/backhoe.jpg');
         background-size: auto 100%;
         background-repeat: no-repeat;
         background-position: right top;
@@ -373,12 +409,30 @@
         z-index: 2;
     }
 
-    #dumpsterRow {
-        background-image: url('./images/dumpsterTruck.jpg');
+    #dumpsterRowFront {
+        /* Truck on the Bridge as background */
+        background-image: url('./images/bridge.JPG');
         background-size: auto 100%;
         background-repeat: no-repeat;
         background-position: left top;
     }
+
+    #dumpsterRow {
+        /* Truck on the Bridge as background */
+        background-image: url('./images/dump_bighouse.JPG');
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+
+    #concreteRow {
+        /* Truck on the Bridge as background */
+        background-image: url('./images/concrete_apartment.JPG');
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+
 
     #dumpsterPsudo {
         position: absolute;
@@ -394,27 +448,29 @@
         visibility: hidden;
     }
 
-    #dumpsterRow {
+    .concreteRow {
         -webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
     }
 
 
+
     .imageSm {
         display: none;
     }
-    
+
     #imageRow {
         border-top: solid 5px green;
-        height: 500px;
+        height: 100%;
+        width: auto;
         -webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
         background-image: url('./images/dumpsterTruckBackground.jpg');
         background-size: cover;
         background-repeat: repeat;
-        background-position: left top;
+        background-position: 50% top;
     }
 
     .imageDiv {
@@ -476,6 +532,7 @@
         padding-top: 15px;
         font-size: 25px;
         font-style: italic;
+        white-space: nowrap;
     }
 }
 
