@@ -21,6 +21,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
+
+
     <!-- Google Cursive font -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'> -->
     <!-- Production mode - drops the http so it works on secure hosting -->
@@ -28,6 +30,14 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_wwxtoOkKrjAaok9xHAkYR");
+        })();
+    </script>
 </head>
 
 <!-- Begin Body -->
@@ -128,11 +138,14 @@
         <div class="row" id="whitespace">
             <div id="line"></div>
         </div>
-        
+
+
         <!-- Concrete Removal Row -->
-        <div class="row concreteRow" id="concreteRow">
+        <div class="row" id="concreteRowFront">
             <!-- psudo div for the background -->
-            <div class="col-sm-6" id="truckingPsudoFront"></div>
+            <div class="col-sm-6" id="concretePsudo"></div>
+            
+            <div class="col-sm-6" id="truckingPsudo2"></div>
             <!-- Main info for Trucking -->
             <div class="col-sm-6" id="truckingDiv">
                 <div class="textBackground">
@@ -153,7 +166,8 @@
                 </button>
 
             </div>
-        </div>
+               <!-- psudo div for the background -->
+           </div>
 
         <!-- Map Row -->
         <div class="row" id="map"></div>
@@ -171,29 +185,31 @@
             <div class="col-md-8" id="contactForm">
                 <form>
                     <h2>Get a Quote:</h2>
-                    <p>Need an Estimate? Just send us an email with the scope of the project, and the best time to contact you.</p>
+                    <p>Need an Estimate? Just send us an email with the scope of the project, and the best time to
+                        contact you.</p>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Name:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                        <input type="text" class="form-control" id="form_name" placeholder="Name">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Phone Number:<span style="color:red">*</span></label>
-                        <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Number">
+                        <input type="tel" class="form-control" id="form_number" placeholder="Number">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Email address:<span style="color:red">*</span></label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="form_email" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Describe the request:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="form_description" rows="3"></textarea>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Best time to contact you:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                        <textarea class="form-control" id="form_time" rows="1"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary mb-2">Send</button>
+                    
                 </form>
+                <button onclick="sendMail()" class="btn btn-primary mb-2">Send</button>
             </div>
         </div>
 

@@ -94,6 +94,20 @@
         background-position: right 25%;
     }
 
+    #truckingPsudo2 {
+        display: none;
+    }
+
+    #concretePsudo {
+        height: 150px;
+        background-image: url('./images/backhoe.jpg');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: right 25%;
+    }
+
+
+
     #truckingPsudoFront {
         height: 150px;
         background-image: url('./images/backhoe.jpg');
@@ -125,6 +139,14 @@
     #dumpsterPsudoTop {
         height: 150px;
         background-image: url('./images/dump_bighouse.JPG');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: left 25%;
+    }
+
+    #concretePsudoTop {
+        height: 150px;
+        background-image: url('./images/concrete_apartment.JPG');
         background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: left 25%;
@@ -360,6 +382,16 @@
         background: rgb(255, 252, 248);
     }
 
+
+    #concreteDiv {
+        height: 400px;
+        padding: 0 40px 0 20px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+        background: rgb(255, 252, 248);
+        z-index: 5;
+    }
+
     #truckingPsudo {
         position: absolute;
         margin-left: 15px;
@@ -367,6 +399,18 @@
         height: 400px;
         -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
         clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+    }
+    #truckingPsudo2 {
+        position: absolute;
+        margin-left: 15px;
+        background: rgba(0, 94, 0, 0.74);
+        height: 400px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+    }
+
+    #concretePsudo {
+        display: none;
     }
 
     #demoRow {
@@ -377,8 +421,7 @@
         background-position: right top;
     }
 
-    #concreteRow {
-
+    #concreteRowFront {
         background-image: url('./images/backhoe.jpg');
         background-size: auto 100%;
         background-repeat: no-repeat;
