@@ -28,7 +28,7 @@
 
     #the_r {
         font-family: Florence, cursive;
-        font-size: 34px;
+        font-size: 38px;
         font-style: italic;
     }
 
@@ -427,7 +427,7 @@
 
     #demoRow {
         /* Loading truck full of rebar */
-        background-image: url('./images/loadingtruck.JPG');
+        background-image: url('./images/bridge.JPG');
         background-size: auto 100%;
         background-repeat: no-repeat;
         background-position: right top;
@@ -605,7 +605,7 @@
     }
     #the_r {
         font-family: Florence, cursive;
-        font-size: 34px;
+        font-size: 38px;
         font-style: italic;
     }
 }
