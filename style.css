@@ -26,6 +26,12 @@
         text-align: center;
     }
 
+    #the_r {
+        font-family: Florence, cursive;
+        font-size: 34px;
+        font-style: italic;
+    }
+
     #area {
         font-size: 15px;
         text-align: right;
@@ -88,7 +94,7 @@
 
     #truckingPsudo {
         height: 150px;
-        background-image: url('./images/loadingtruck.JPG');
+        background-image: url('./images/bridge.JPG');
         background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: right 25%;
@@ -279,6 +285,12 @@
         text-align: center;
     }
 
+    #the_r {
+        font-family: Florence, cursive;
+        font-size: 34px;
+        font-style: italic;
+    }
+
     #area {
         font-size: 20px;
         text-align: right;
@@ -454,7 +466,7 @@
 
     #dumpsterRowFront {
         /* Truck on the Bridge as background */
-        background-image: url('./images/bridge.JPG');
+        background-image: url('./images/dump_bighouse.JPG');
         background-size: auto 100%;
         background-repeat: no-repeat;
         background-position: left top;
@@ -590,5 +602,10 @@
         word-spacing: 5px;
         color: #2A42C3;
         text-align: center;
+    }
+    #the_r {
+        font-family: Florence, cursive;
+        font-size: 34px;
+        font-style: italic;
     }
 }
