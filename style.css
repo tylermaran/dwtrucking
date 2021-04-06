@@ -1,611 +1,603 @@
 @media only screen and (max-width: 768px) {
-    body {
-        min-width: 375px;
-    }
+	body {
+		min-width: 375px;
+	}
 
-    #header {
-        position: relative;
-        z-index: 2;
-        background: rgb(255, 252, 248);
-        -webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-    }
+	#header {
+		position: relative;
+		z-index: 2;
+		background: rgb(255, 252, 248);
+		-webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+	}
 
-    #nameColSm {
-        display: none;
-    }
+	#nameColSm {
+		display: none;
+	}
 
-    #name {
-        padding-top: 20px;
-        padding-bottom: 10px;
-        font: 50px/0.8 'Cookie', Helvetica, sans-serif;
-        letter-spacing: -2px;
-        word-spacing: 5px;
-        color: #2A42C3;
-        text-align: center;
-    }
+	#name {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		font: 50px/0.8 'Cookie', Helvetica, sans-serif;
+		letter-spacing: -2px;
+		word-spacing: 5px;
+		color: #2a42c3;
+		text-align: center;
+	}
 
-    #the_r {
-        font-family: Florence, cursive;
-        font-size: 38px;
-        font-style: italic;
-    }
+	#the_r {
+		font-family: Florence, cursive;
+		font-size: 38px;
+		font-style: italic;
+	}
 
-    #area {
-        font-size: 15px;
-        text-align: right;
-        font-weight: bold;
-        font-style: italic;
-        color: #2A42C3;
-    }
+	#area {
+		font-size: 15px;
+		text-align: right;
+		font-weight: bold;
+		font-style: italic;
+		color: #2a42c3;
+	}
 
-    #navText {
-        text-align: center;
-        font-size: 13px;
-        letter-spacing: -1px;
-        padding: 0 0 0 0;
-    }
+	#navText {
+		text-align: center;
+		font-size: 13px;
+		letter-spacing: -1px;
+		padding: 0 0 0 0;
+	}
 
-    #navCol {
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-    }
+	#navCol {
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
 
-    #navLink {
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-    }
+	#navLink {
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
 
-    #learnMore {
-        width: auto;
-        height: auto;
-        padding: 10px 10px 10px 10px;
-        font-size: 20px;
-        margin: 20px 0 20px 36%;
-    }
+	#learnMore {
+		width: auto;
+		height: auto;
+		padding: 10px 10px 10px 10px;
+		font-size: 20px;
+		margin: 20px 0 20px 36%;
+	}
 
-    .textBackground {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        background-color: green;
-        -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
-        clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
-    }
+	.textBackground {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		background-color: green;
+		-webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+	}
 
-    .headerText {
-        color: white;
-        font-size: 21px;
-        font-weight: bold;
-        padding: 1px 0 1px 10px;
-    }
+	.headerText {
+		color: white;
+		font-size: 21px;
+		font-weight: bold;
+		padding: 1px 0 1px 10px;
+	}
 
-    #truckingDiv {
-        height: auto;
-        position: relative;
-        padding-bottom: 20px;
-        z-index: 3;
-        padding-top: 5px;
-        background: rgb(255, 252, 248);
-        -webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-    }
+	#truckingDiv {
+		height: auto;
+		position: relative;
+		padding-bottom: 20px;
+		z-index: 3;
+		padding-top: 5px;
+		background: rgb(255, 252, 248);
+		-webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+	}
 
-    #truckingPsudo {
-        height: 150px;
-        background-image: url('./images/bridge.JPG');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-position: right 25%;
-    }
+	#truckingPsudo {
+		height: 150px;
+		background-image: url('./images/bridge.JPG');
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: right 25%;
+	}
 
-    #truckingPsudo2 {
-        display: none;
-    }
+	#truckingPsudo2 {
+		display: none;
+	}
 
-    #concretePsudo {
-        height: 150px;
-        background-image: url('./images/backhoe.jpg');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-position: right 25%;
-    }
+	#concretePsudo {
+		height: 150px;
+		background-image: url('./images/backhoe.jpg');
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: right 25%;
+	}
 
+	#truckingPsudoFront {
+		height: 150px;
+		background-image: url('./images/backhoe.jpg');
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: right 25%;
+	}
 
+	#whitespace {
+		visibility: hidden;
+	}
 
-    #truckingPsudoFront {
-        height: 150px;
-        background-image: url('./images/backhoe.jpg');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-position: right 25%;
-    }
+	#line {
+		visibility: hidden;
+	}
 
-    #whitespace {
-        visibility: hidden;
-    }
+	#dumpsterDiv {
+		height: auto;
+		position: relative;
+		padding-bottom: 10px;
+		z-index: 3;
+		padding-top: 5px;
+		background: rgb(255, 252, 248);
+		-webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+	}
 
-    #line {
-        visibility: hidden;
-    }
+	#dumpsterPsudoTop {
+		height: 150px;
+		background-image: url('./images/dump_bighouse.JPG');
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: left 25%;
+	}
 
-    #dumpsterDiv {
-        height: auto;
-        position: relative;
-        padding-bottom: 10px;
-        z-index: 3;
-        padding-top: 5px;
-        background: rgb(255, 252, 248);
-        -webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-    }
+	#concretePsudoTop {
+		height: 150px;
+		background-image: url('./images/concrete_apartment.JPG');
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: left 25%;
+	}
 
-    #dumpsterPsudoTop {
-        height: 150px;
-        background-image: url('./images/dump_bighouse.JPG');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-position: left 25%;
-    }
+	#dumpsterPsudo {
+		visibility: hidden;
+	}
 
-    #concretePsudoTop {
-        height: 150px;
-        background-image: url('./images/concrete_apartment.JPG');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-position: left 25%;
-    }
+	#imageRow {
+		display: none;
+	}
 
-    #dumpsterPsudo {
-        visibility: hidden;
-    }
+	#map {
+		height: 400px;
+		position: relative;
+		z-index: 2;
+		border-bottom: solid 15px rgb(73, 73, 73);
+	}
 
-    #imageRow {
-        display: none;
-    }
+	#contact {
+		margin: 0px 0 20px 0;
+		position: relative;
+		z-index: 3;
+		height: auto;
+	}
 
-    #map {
-        height: 400px;
-        position: relative;
-        z-index: 2;
-        border-bottom: solid 15px rgb(73, 73, 73);
-    }
+	#contactForm {
+		padding: 0 50px 0 50px;
+	}
 
-    #contact {
-        margin: 0px 0 20px 0;
-        position: relative;
-        z-index: 3;
-        height: auto;
-    }
+	#footer {
+		height: auto;
+		background-color: rgb(73, 73, 73);
+		color: white;
+		text-align: center;
+		padding-bottom: 15px;
+	}
 
-    #contactForm {
-        padding: 0 50px 0 50px;
-    }
+	#footerName {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font: 35px/0.8 'Cookie', Helvetica, sans-serif;
+		color: rgb(255, 255, 255);
+	}
 
-    #footer {
-        height: auto;
-        background-color: rgb(73, 73, 73);
-        color: white;
-        text-align: center;
-        padding-bottom: 15px;
-    }
+	#footerCall {
+		padding-top: 15px;
+		font-size: 20px;
+		font-style: italic;
+	}
 
-    #footerName {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        font: 35px/0.8 'Cookie', Helvetica, sans-serif;
-        color: rgb(255, 255, 255);
-    }
+	.images {
+		width: 100%;
+		height: auto;
+		margin: 5px 0 0 0;
+		border: solid 1px rgb(73, 73, 73);
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
 
-    #footerCall {
-        padding-top: 15px;
-        font-size: 20px;
-        font-style: italic;
-    }
-
-    .images {
-        width: 100%;
-        height: auto;
-        margin: 5px 0 0 0;
-        border: solid 1px rgb(73, 73, 73);
-        ;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-    }
-
-    .imageBack {
-        background-color: rgb(73, 73, 73);
-        ;
-        margin: 0 0 10px 0;
-        padding: 2px 10px 10px 10px;
-        color: white;
-        font-size: 18px;
-        border-bottom-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-
-    }
+	.imageBack {
+		background-color: rgb(73, 73, 73);
+		margin: 0 0 10px 0;
+		padding: 2px 10px 10px 10px;
+		color: white;
+		font-size: 18px;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
 }
 
 /* *************************************************************************** */
 /* *************************************************************************** */
 @media only screen and (min-width: 612px) {
-    #navText {
-        width: 25%;
-        font-weight: bold;
-    }
+	#navText {
+		width: 25%;
+		font-weight: bold;
+	}
 }
-
 
 /* *************************************************************************** */
 /* *************************************************************************** */
 /* Large devices (laptops/desktops, 900px and up) */
 @media only screen and (min-width: 768px) {
+	.container-fluid {
+		margin: 0%;
+		padding: 0;
+	}
 
-    .container-fluid {
-        margin: 0%;
-        padding: 0;
-    }
+	.row {
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
 
-    .row {
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-    }
+	#header {
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+		height: auto;
+		position: relative;
+		z-index: 10;
+		background: rgb(255, 252, 248);
+		-webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+	}
 
-    #header {
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-        height: auto;
-        position: relative;
-        z-index: 10;
-        background: rgb(255, 252, 248);
-        -webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-    }
+	#nameColSm {
+		display: block;
+		min-width: 270px;
+	}
 
-    #nameColSm {
-        display: block;
-        min-width: 270px;
-    }
+	#nameColMd {
+		display: none;
+	}
 
-    #nameColMd {
-        display: none;
-    }
+	#name {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		padding-right: 0;
+		font: 55px/0.8 'Cookie', Helvetica, sans-serif;
+		letter-spacing: -2px;
+		word-spacing: 5px;
+		color: #2a42c3;
+		text-align: center;
+	}
 
-    #name {
-        padding-top: 20px;
-        padding-bottom: 10px;
-        padding-right: 0;
-        font: 55px/0.8 'Cookie', Helvetica, sans-serif;
-        letter-spacing: -2px;
-        word-spacing: 5px;
-        color: #2A42C3;
-        text-align: center;
-    }
+	#the_r {
+		font-family: Florence, cursive;
+		font-size: 34px;
+		font-style: italic;
+	}
 
-    #the_r {
-        font-family: Florence, cursive;
-        font-size: 34px;
-        font-style: italic;
-    }
+	#area {
+		font-size: 20px;
+		text-align: right;
+		font-weight: bold;
+		font-style: italic;
+		color: #2a42c3;
+		padding-top: 20px;
+	}
 
-    #area {
-        font-size: 20px;
-        text-align: right;
-        font-weight: bold;
-        font-style: italic;
-        color: #2A42C3;
-        padding-top: 20px;
-    }
+	#cities {
+		width: auto;
+		float: right;
+		white-space: nowrap;
+		text-align: right;
+	}
 
-    #cities {
-        width: auto;
-        float: right;
-        white-space: nowrap;
-        text-align: right;
-    }
+	#phone {
+		float: right;
+	}
 
-    #phone {
-        float: right;
-    }
+	#navRow {
+		width: auto;
+	}
 
-    #navRow {
-        width: auto;
-    }
+	#navCol {
+		float: right;
+		width: auto;
+		margin: 0 0 0 0;
+		padding: 0;
+		margin-right: -10px;
+	}
 
-    #navCol {
-        float: right;
-        width: auto;
-        margin: 0 0 0 0;
-        padding: 0;
-        margin-right: -10px;
-    }
+	.nav-tabs {
+		/* float: right; */
+		height: 100%;
+		width: auto;
+		/* min-width: 650px; */
+		white-space: nowrap;
+	}
 
-    .nav-tabs {
-        /* float: right; */
-        height: 100%;
-        width: auto;
-        /* min-width: 650px; */
-        white-space: nowrap;
-    }
+	#navText {
+		/* float: right; */
+		height: 100%;
+		width: auto;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+	}
 
-    #navText {
-        /* float: right; */
-        height: 100%;
-        width: auto;
-        font-size: 15px;
-        font-weight: bold;
-        text-align: center;
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-    }
+	.navLink {
+		float: right;
+		height: 100%;
+		min-width: 130px;
+	}
 
-    .navLink {
-        float: right;
-        height: 100%;
-        min-width: 130px;
-    }
+	.textBackground {
+		margin-top: 20px;
+		/* width: auto; */
+		margin-bottom: 5px;
+		background-color: green;
+		-webkit-clip-path: polygon(0 0, 100% 0, 98% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 98% 100%, 0% 100%);
+	}
 
-    .textBackground {
-        margin-top: 20px;
-        /* width: auto; */
-        margin-bottom: 5px;
-        background-color: green;
-        -webkit-clip-path: polygon(0 0, 100% 0, 98% 100%, 0% 100%);
-        clip-path: polygon(0 0, 100% 0, 98% 100%, 0% 100%);
-    }
+	.description {
+		font-size: 18px;
+	}
 
-    .description {
-        font-size: 18px;
-    }
+	.descriptionList {
+		font-size: 18px;
+	}
 
-    .descriptionList {
-        font-size: 18px;
-    }
+	li {
+		font-size: 18px;
+	}
 
-    li {
-        font-size: 18px;
-    }
+	.headerText {
+		width: auto;
+		color: white;
+		font-size: 21px;
+		font-weight: bold;
+		padding: 1px 0 1px 10px;
+	}
 
-    .headerText {
-        width: auto;
-        color: white;
-        font-size: 21px;
-        font-weight: bold;
-        padding: 1px 0 1px 10px;
-    }
+	#learnMore {
+		width: auto;
+		height: auto;
+		padding: 10px 10px 10px 10px;
+		font-size: 25px;
+		margin: 30px 0 0 30px;
+	}
 
-    #learnMore {
-        width: auto;
-        height: auto;
-        padding: 10px 10px 10px 10px;
-        font-size: 25px;
-        margin: 30px 0 0 30px;
-    }
+	#truckingDiv {
+		height: 400px;
+		padding: 0 40px 0 20px;
+		-webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+		background: rgb(255, 252, 248);
+	}
 
+	#concreteDiv {
+		height: 400px;
+		padding: 0 40px 0 20px;
+		-webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+		background: rgb(255, 252, 248);
+		z-index: 5;
+	}
 
-    #truckingDiv {
-        height: 400px;
-        padding: 0 40px 0 20px;
-        -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-        background: rgb(255, 252, 248);
-    }
+	#truckingPsudo {
+		position: absolute;
+		margin-left: 15px;
+		background: rgba(0, 94, 0, 0.74);
+		height: 400px;
+		-webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+	}
+	#truckingPsudo2 {
+		position: absolute;
+		margin-left: 15px;
+		background: rgba(0, 94, 0, 0.74);
+		height: 400px;
+		-webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+	}
 
+	#concretePsudo {
+		display: none;
+	}
 
-    #concreteDiv {
-        height: 400px;
-        padding: 0 40px 0 20px;
-        -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-        background: rgb(255, 252, 248);
-        z-index: 5;
-    }
+	#demoRow {
+		/* Loading truck full of rebar */
+		background-image: url('./images/bridge.JPG');
+		background-size: auto 125%;
+		background-repeat: no-repeat;
+		background-position: right center;
+	}
 
-    #truckingPsudo {
-        position: absolute;
-        margin-left: 15px;
-        background: rgba(0, 94, 0, 0.74);
-        height: 400px;
-        -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-    }
-    #truckingPsudo2 {
-        position: absolute;
-        margin-left: 15px;
-        background: rgba(0, 94, 0, 0.74);
-        height: 400px;
-        -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-    }
+	#concreteRowFront {
+		background-image: url('./images/backhoe.jpg');
+		background-size: auto 125%;
+		background-repeat: no-repeat;
+		background-position: right center;
+	}
 
-    #concretePsudo {
-        display: none;
-    }
+	#whitespace {
+		height: 12px;
+	}
 
-    #demoRow {
-        /* Loading truck full of rebar */
-        background-image: url('./images/bridge.JPG');
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        background-position: right top;
-    }
+	#line {
+		width: 96%;
+		margin-left: 2%;
+		margin-top: 4px;
+		height: 4px;
+		background: rgba(160, 160, 160, 0.678);
+		border-radius: 2px;
+	}
 
-    #concreteRowFront {
-        background-image: url('./images/backhoe.jpg');
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        background-position: right top;
-    }
+	#dumpsterDiv {
+		height: 400px;
+		position: relative;
+		float: right;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+		background: rgb(255, 252, 248);
+		padding-left: 10%;
+		z-index: 2;
+	}
 
-    #whitespace {
-        height: 12px;
-    }
+	#dumpsterRowFront {
+		/* Truck on the Bridge as background */
+		background-image: url('./images/dump_bighouse.JPG');
+		background-size: auto 125%;
+		background-repeat: no-repeat;
+		background-position: left top;
+	}
 
-    #line {
-        width: 96%;
-        margin-left: 2%;
-        margin-top: 4px;
-        height: 4px;
-        background: rgba(160, 160, 160, 0.678);
-        border-radius: 2px;
-    }
+	#dumpsterRow {
+		/* Truck on the Bridge as background */
+		background-image: url('./images/dump_bighouse.JPG');
+		background-size: auto 125%;
+		background-repeat: no-repeat;
+		background-position: left top;
+	}
 
-    #dumpsterDiv {
-        height: 400px;
-        position: relative;
-        float: right;
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
-        background: rgb(255, 252, 248);
-        padding-left: 10%;
-        z-index: 2;
-    }
+	#concreteRow {
+		/* Truck on the Bridge as background */
+		background-image: url('./images/concrete_apartment.JPG');
+		background-size: auto 125%;
+		background-repeat: no-repeat;
+		background-position: left top;
+	}
 
-    #dumpsterRowFront {
-        /* Truck on the Bridge as background */
-        background-image: url('./images/dump_bighouse.JPG');
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        background-position: left top;
-    }
+	#dumpsterPsudo {
+		position: absolute;
+		margin-right: 15px;
+		background: rgba(0, 94, 0, 0.74);
+		height: 400px;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+		right: 0px;
+	}
 
-    #dumpsterRow {
-        /* Truck on the Bridge as background */
-        background-image: url('./images/dump_bighouse.JPG');
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        background-position: left top;
-    }
+	#dumpsterPsudoTop {
+		visibility: hidden;
+	}
 
-    #concreteRow {
-        /* Truck on the Bridge as background */
-        background-image: url('./images/concrete_apartment.JPG');
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        background-position: left top;
-    }
+	.concreteRow {
+		-webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+	}
 
+	.imageSm {
+		display: none;
+	}
 
-    #dumpsterPsudo {
-        position: absolute;
-        margin-right: 15px;
-        background: rgba(0, 94, 0, 0.74);
-        height: 400px;
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
-        right: 0px;
-    }
+	#imageRow {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		border-top: solid 5px green;
+		height: 100%;
+		width: auto;
+		-webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
+		background-image: url('./images/dumpsterTruckBackground.jpg');
+		background-size: cover;
+		background-repeat: repeat;
+		background-position: 50% top;
+		padding-bottom: 10%;
+	}
 
-    #dumpsterPsudoTop {
-        visibility: hidden;
-    }
+	.imageDiv {
+		width: 44%;
+		float: left;
+		margin: 30px 40px 10px 0px;
+		padding: 0 0 0 0;
+	}
 
-    .concreteRow {
-        -webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-    }
+	.images {
+		border: solid 5px white;
+		width: 100%;
+		height: auto;
+		margin: 20px 0 0 0;
+	}
 
+	.imageBack {
+		display: none;
+	}
 
+	.imageDescription {
+		color: white;
+		font-size: 16px;
+	}
 
-    .imageSm {
-        display: none;
-    }
+	#map {
+		height: 400px;
+		width: 100%;
+		position: relative;
+		z-index: 0;
+	}
 
-    #imageRow {
-        border-top: solid 5px green;
-        height: 100%;
-        width: auto;
-        -webkit-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 10px 27px -1px rgba(0, 0, 0, 0.75);
-        background-image: url('./images/dumpsterTruckBackground.jpg');
-        background-size: cover;
-        background-repeat: repeat;
-        background-position: 50% top;
-    }
+	#contact {
+		padding: 0 50px 0 50px;
+		margin: 20px 0 100px 0;
+		height: auto;
+	}
 
-    .imageDiv {
-        width: 44%;
-        float: left;
-        margin: 30px 0px 10px 40px;
-        padding: 0 0 0 0;
-    }
+	#contactForm {
+		padding: 0 50px 0 50px;
+	}
 
-    .images {
-        border: solid 5px white;
-        width: 100%;
-        height: auto;
-        margin: 20px 0 0 0;
-    }
+	#footer {
+		height: auto;
+		background-color: rgb(73, 73, 73);
+		color: white;
+		text-align: center;
+		padding-bottom: 15px;
+	}
 
-    .imageBack {
-        display: none;
-    }
+	#footerName {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font: 35px/0.8 'Cookie', Helvetica, sans-serif;
+		color: rgb(255, 255, 255);
+	}
 
-    .imageDescription {
-        color: white;
-        font-size: 16px;
-    }
-
-    #map {
-        height: 400px;
-        width: 100%;
-        position: relative;
-        z-index: 0;
-    }
-
-    #contact {
-        padding: 0 50px 0 50px;
-        margin: 20px 0 100px 0;
-        height: auto;
-    }
-
-    #contactForm {
-        padding: 0 50px 0 50px;
-    }
-
-    #footer {
-        height: auto;
-        background-color: rgb(73, 73, 73);
-        color: white;
-        text-align: center;
-        padding-bottom: 15px;
-    }
-
-    #footerName {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        font: 35px/0.8 'Cookie', Helvetica, sans-serif;
-        color: rgb(255, 255, 255);
-    }
-
-    #footerCall {
-        padding-top: 15px;
-        font-size: 25px;
-        font-style: italic;
-        white-space: nowrap;
-    }
+	#footerCall {
+		padding-top: 15px;
+		font-size: 25px;
+		font-style: italic;
+		white-space: nowrap;
+	}
 }
 
 /* *************************************************************************** */
 /* *************************************************************************** */
 /* Adjusting the Name on 1200 and up */
 @media only screen and (min-width: 1200px) {
-    #name {
-        padding: 35px 0 0 0;
-        font: 60px/0.8 'Cookie', Helvetica, sans-serif;
-        letter-spacing: -2px;
-        word-spacing: 5px;
-        color: #2A42C3;
-        text-align: center;
-    }
-    #the_r {
-        font-family: Florence, cursive;
-        font-size: 38px;
-        font-style: italic;
-    }
+	#name {
+		padding: 35px 0 0 0;
+		font: 60px/0.8 'Cookie', Helvetica, sans-serif;
+		letter-spacing: -2px;
+		word-spacing: 5px;
+		color: #2a42c3;
+		text-align: center;
+	}
+	#the_r {
+		font-family: Florence, cursive;
+		font-size: 38px;
+		font-style: italic;
+	}
 }
